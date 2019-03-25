@@ -1,0 +1,143 @@
+body{
+      margin:0;
+	  padding:0;
+	  font-family: "Helvetica", "Arial", sans-serif;
+}
+.title{
+     top:175px;
+     left: 41%;
+     width:340px;
+	 height:50px;
+	 color:#fff;
+	 background: black;
+	 border-radius: 30px;
+	 position:relative;
+	 padding:20px 0px;
+	 font-size:24px;
+	 
+}
+.title1{
+     font-size:27px;
+	 font-weight:bold;
+	 font-family:Palatino Linotype;
+     margin:0;
+     padding: 0;
+     text-align: center;
+}
+.loginbox{
+       width: 340px;
+	   height:420px;
+	   background: #000;
+	   color: #fff;
+	   top:50%;
+	   left:50%;
+	   position:absolute;
+	   transform: translate(-50%,-50%);
+	   box-sizing:border-box;	
+	   border-radius:30px;
+	   padding: 70px 30px;
+}
+ .user{
+     width:70px;
+	 height:70px;
+	 border-radius:50%;
+	 position: absolute;
+	 top: -20px;
+	 right:130px;
+	 left: calc(50% -50px);
+ }
+    p{
+	 font-family:Palatino Linotype;
+     margin:0;
+     padding: 0;
+     text-align: center;
+	 font-size:18px;
+	 font-weight:bold:
+	} 
+ h2{
+     margin:0;
+	 padding:0 0 20px;
+     text-align: center;
+	 font-size:22px;
+	 
+ }
+ .loginbox label{
+     margin:0;
+	 padding:0;
+	 font-weight:bold:
+ }
+ 
+  .loginbox input{
+       width:100%;
+	   margin-bottom:20px;
+  }
+  .loginbox input[type="text"],[type="password"]{
+      border:none;
+	  border-bottom:1px solid #fff;
+	  outline:none;
+	  background:transparent;
+	  height:30px;
+	  color:#fff;
+  }
+  .loginbox input[type="submit"]{
+     border: none;
+	 outline: none;
+	 height:40px;
+	 background:#F35930;
+	 color: #fff;
+	 font-size:18px;
+  }
+  .loginbox input[type="submit"]:hover{
+     cursor: pointer;
+     background:#F79B6C;
+     color:#000;	 
+  }
+  .footer a{
+     position:relative;
+     top:825px;
+	 left:670px;
+     text-decoration:none;
+	 font-size:14px;
+	 color:#000;
+	 line-height:20px;
+	 font-weight:bold;
+	 font-style: inherit;
+  }
+  
+  .footer a:hover{
+	 color:#F79B6C;
+  }
+  
+  
+  .loginbox  a{
+     text-decoration:none;
+	 font-size:14px;
+	 line-height:20px;
+	 color: darkgrey;
+  }
+   .loginbox  a:hover{
+     color:#65A8F8;
+}
+
+ .news{
+     bottom:15px;
+     right: 30px;
+     width:420px;
+	 height:720px;
+	 color:#fff;
+	 background: black;
+	 border-radius: 20px;
+	 position:absolute;
+	 padding:30px 30px;
+ }
+ #footer-below {
+    color: #999;
+    font-size: 1.0em;
+    padding: 25px 0;
+    background-position: center;
+    text-align: center;
+	position:absolute;
+	bottom:25px;
+	 font-size:14px;
+	 right:20px;
+}
