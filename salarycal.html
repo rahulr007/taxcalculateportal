@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Income Tax Calculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="C:\Users\760974\Desktop\portal\css\salarycal.css">
+   	 <script src="C:\Users\760974\Desktop\portal\js\salarycal.js" type="text/javascript" ></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand active" href="C:\Users\760974\Desktop\portal\homepage.html">TAX CALCULATOR</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="C:\Users\760974\Desktop\portal\about.html">About</a></li>
+                    <li><a href="C:\Users\760974\Desktop\portal\Salarycal.html">Salary tax Calculation</a></li>
+					<li><a href="C:\Users\760974\Desktop\portal\index.html">Log out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+	<header class="header">
+        <div class="text-box">
+            <h1 class="heading-primary">
+              <span class="heading-primary-main">Income Tax Calculation</span>  
+            </h1>
+<div id="container">
+  
+
+ <div id="calc">
+      <h2>Enter the details:</h2> 
+   <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1">Work Hours</span>
+      <input type="number" class="form-control" aria-describedby="basic-addon1"  id="Hours">
+   </div>
+   <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1" >Pay Per Hour</span>
+      <input type="number" class="form-control"  aria-describedby="basic-addon1" id="pph">
+    </div>
+  
+  <div id="checkBox">
+    
+    <label> <p> Select your country:</p> </label>
+     <input class="check" type="radio" name="country" id="india"> India </input>
+    <input class="check" type="radio" name="country" id="USA"> USA </input>
+  
+    </div>
+<div id="submit"> <button type="submit" class="btn btn-primary" onClick="getSalary()">Submit</button></div>
+<div id="income">
+  
+ <div> <p id="salary"> Salary: </div>
+    <p id="TAX"> TAX: </p>
+        <p id="deduction"> Tax Deduction: </p> 
+
+    <p id="neto"> Your Net Salary: </p>
+</div>
+  
+</div>
+</div>
+</div>
+</header>
+</body>
+<footer>
+        <div id="footer-below">Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script> Tax Calculator.
+        </div>
+    </footer>
+</html>
